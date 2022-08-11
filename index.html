@@ -21,6 +21,12 @@
 
 <body class="is-preload">
 
+	<!-- me stuff try put paypal top right -->
+
+	
+
+	<!--  -->
+
 	<div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="Zl5rwq90"></script>
 
@@ -79,6 +85,26 @@
 
 						<!-- Featured Post -->
 						<article class="post featured">
+
+							<div style="position:absolute;
+							top:0;
+							right:0;"  id="donate-button-container">
+								<div id="donate-button"></div>
+								<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+								<script>
+								PayPal.Donation.Button({
+								env:'production',
+								hosted_button_id:'73TGGC346T89J',
+								image: {
+								src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+								alt:'Donate with PayPal button',
+								title:'PayPal - The safer, easier way to pay online!',
+								}
+								}).render('#donate-button');
+								</script>
+								   
+							</div>
+
 							<header class="major">
 								<h2><a href="#">One Team...<br />
 										One Fight!!!</a></h2>
@@ -162,7 +188,7 @@
 								<p>Donate here<br />
 									<br />
 									</p>
-									<div id="donate-button-container">
+									<!-- <div id="donate-button-container">
 										<div id="donate-button"></div>
 										<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
 										<script>
@@ -176,7 +202,7 @@
 										}
 										}).render('#donate-button');
 										</script>
-									</div>
+									</div> -->
 							</header>
 							
 						</article>
