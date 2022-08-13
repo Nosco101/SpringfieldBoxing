@@ -21,6 +21,47 @@
 	background-color: #a71d16;
 }
 
+.cornerboxRight {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 30px;
+	background-color: #E5C11A;
+	width: 172px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.cornerboxRight:hover {
+	background-color: #A68C13;
+}
+
+.cornerboxRightOnTop {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 30px;
+	background-color: #E5C11A;
+	width: 172px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	z-index:2;
+	pointer-events: none;
+}
+
+.cornerboxRightOnTop:hover {
+	background-color: #A68C13;
+}
+
+
+
 
 /*  */
 

@@ -24,3 +24,12 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 } 
+
+// change overbox color on interaction with donate-button-container
+document.getElementById("donate-button-container").addEventListener("mouseover",function() {
+  document.getElementById("overbox").style.backgroundColor="#A68C13";
+});
+
+document.getElementById("donate-button-container").addEventListener("mouseout",function() {
+  document.getElementById("overbox").style.backgroundColor="#E5C11A";
+});

@@ -89,7 +89,7 @@
 						<!-- Featured Post -->
 						<article class="post featured">
 
-							<div style="position:absolute;
+							<!-- <div style="position:absolute;
 							top:0;
 							right:0;" id="donate-button-container">
 								<div id="donate-button"></div>
@@ -107,9 +107,30 @@
 									}).render('#donate-button');
 								</script>
 
+							</div> -->
+
+							<div class="cornerboxRight"  id="donate-button-container">
+								<div style="padding-top:22px; z-index:1;" id="donate-button"></div>
+								<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
+									charset="UTF-8"></script>
+								<script>
+									PayPal.Donation.Button({
+										env: 'production',
+										hosted_button_id: '73TGGC346T89J',
+										image: {
+											src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+											alt: 'Donate with PayPal button',
+											title: 'PayPal - The safer, easier way to pay online!',
+										}
+									}).render('#donate-button');
+								</script>
+
 							</div>
 
+							<div class="cornerboxRightOnTop" id="overbox" >
+								<h4 style="color:#f1f1f1;padding-top:16px;">Donate <br>Here</h4>
 
+							</div>
 
 							<span onclick="openNav()">
 								<div class="cornerbox" >
@@ -249,7 +270,7 @@
 
 							<header class="major">
 								<h2><a href="#">Getting Involved</a></h2>
-								<p>Donate here<br />
+								<p>Contact Dean Fay (413) 310-2187<br />
 									<br />
 								</p>
 								<!-- <div id="donate-button-container">
