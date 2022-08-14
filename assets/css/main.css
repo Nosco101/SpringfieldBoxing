@@ -3,6 +3,7 @@
 
 
 
+
 /* @media screen and (max-width: 736px) {
 	#nav ul.tabs {
 		make the tabs display vertically
@@ -27,14 +28,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
+
 }
 
 
 
 .cornerbox h4 {
-	color:#f1f1f1;
-	padding-top:16px;
+	color: #f1f1f1;
+	padding-top: 16px;
 }
 
 .cornerbox:hover {
@@ -88,8 +89,8 @@
 
 
 .cornerboxRightOnTop h4 {
-	color:#f1f1f1;
-	padding-top:16px;
+	color: #f1f1f1;
+	padding-top: 16px;
 }
 
 .cornerboxRightOnTop:hover {
@@ -111,7 +112,7 @@
 		width: 150px;
 		height: 70px;
 	}
-} 
+}
 
 @media screen and (max-width: 480px) {
 	.cornerbox {
@@ -122,14 +123,14 @@
 	.cornerboxRight {
 		width: 150px;
 		height: 50px;
-		margin-top:5px
+		margin-top: 5px
 	}
 
 	.cornerboxRightOnTop {
 		width: 150px;
 		height: 50px;
 	}
-} 
+}
 
 
 
@@ -4959,9 +4960,8 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	right: 0;
 	top: 0;
 	visibility: hidden;
-	/* width: 20rem;
-	 */
-	width: 200rem;
+	width: 20rem;
+
 	z-index: 10002;
 }
 
@@ -5102,4 +5102,40 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 		visibility: visible;
 	}
 
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 0px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 30px;
+
+	box-shadow: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active,
+.collapsible:hover {
+	background-color: #ccc;
+} */
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	/* padding: 0 18px; */
+	display: none;
+	overflow: hidden;
+	/* background-color: #f1f1f1; */
+	
+}
+
+.responsive {
+	max-width: 100%;
+	height: auto;
 }
