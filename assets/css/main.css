@@ -5132,6 +5132,11 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	display: none;
 	overflow: hidden;
 	/* background-color: #f1f1f1; */
+	/* center all divs */
+	/* display: flex; */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 }
 
