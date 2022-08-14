@@ -30,22 +30,7 @@
 	
 }
 
-@media screen and (max-width: 980px) {
-	.cornerbox {
-		width: 150px;
-		height: 70px;
-	}
 
-	.cornerboxRight {
-		width: 150px;
-		height: 70px;
-	}
-
-	.cornerboxRightOnTop {
-		width: 150px;
-		height: 70px;
-	}
-} 
 
 .cornerbox h4 {
 	color:#f1f1f1;
@@ -66,6 +51,7 @@
 	height: 100px;
 	padding: 0;
 	margin: 0px;
+	/* margin-top:5px; */
 	border-radius: 10px;
 	cursor: pointer;
 	z-index: 1;
@@ -74,11 +60,6 @@
 	justify-content: center;
 	align-items: center;
 }
-
-@media screen and (max-width: 980px) {
-	
-} 
-
 
 .cornerboxRight:hover {
 	background-color: #A68C13;
@@ -114,6 +95,41 @@
 .cornerboxRightOnTop:hover {
 	background-color: #A68C13;
 }
+
+@media screen and (max-width: 980px) {
+	.cornerbox {
+		width: 150px;
+		height: 70px;
+	}
+
+	.cornerboxRight {
+		width: 150px;
+		height: 70px;
+	}
+
+	.cornerboxRightOnTop {
+		width: 150px;
+		height: 70px;
+	}
+} 
+
+@media screen and (max-width: 480px) {
+	.cornerbox {
+		width: 150px;
+		height: 50px;
+	}
+
+	.cornerboxRight {
+		width: 150px;
+		height: 50px;
+		margin-top:5px
+	}
+
+	.cornerboxRightOnTop {
+		width: 150px;
+		height: 50px;
+	}
+} 
 
 
 
