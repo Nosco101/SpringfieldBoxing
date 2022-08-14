@@ -12,8 +12,12 @@ tabs.forEach(tab => {
     })
     tab.classList.add('active')
     target.classList.add('active')
+    // 
+    // close the navPanel
   })
 })
+
+//when i click navPanel, open the navPanel
 
 /* Open the sidenav */
 function openNav() {
