@@ -5127,6 +5127,18 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 } */
 
 /* Style the collapsible content. Note: hidden by default */
+.contentStaff {
+	/* padding: 0 18px; */
+	display: none;
+	overflow: hidden;
+	/* arrange items in rows, then columns */
+	flex-wrap: wrap;
+
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+}
+
 .content {
 	/* padding: 0 18px; */
 	display: none;
@@ -5145,7 +5157,17 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	height: auto;
 }
 
-/* .profile {
+.content img{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.profile {
 	width: 350px;
 	height: 350px;
-} */
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
