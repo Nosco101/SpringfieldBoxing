@@ -42,3 +42,23 @@
     flex-direction: column;
     margin: 5px;
 }
+
+.golden-glove-2023-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.golden-glove-2023-button {
+    border: 1px solid aqua;
+    border-radius: 10px;
+    height: 75px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: system-ui;
+    background: gainsboro;
+}
