@@ -1,0 +1,44 @@
+.golden-glove-outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.registration-link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.contact-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container:hover {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact-card {
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
